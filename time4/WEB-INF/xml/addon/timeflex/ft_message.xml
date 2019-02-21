@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE MosP>
+<!--
+MosP - Mind Open Source Project    http://www.mosp.jp/
+Copyright (C) MIND Co., Ltd.       http://www.e-mind.co.jp/
+
+This program is free software: you can redistribute it and/or
+modify it under the terms of the GNU Affero General Public License
+as published by the Free Software Foundation, either version 3
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<MosP>
+	<!-- Warning -->
+	<Message key="ADFTW0001">
+		<MessageBody>フレックスタイムが適用されている状態で利用出来ないボタンを選択しています。%1%を変更します。</MessageBody>
+		<ClientAvailable>true</ClientAvailable>
+	</Message>
+	<Message key="ADFTW0002">
+		<MessageBody>フレックスを利用しているため、%1%は利用できません。確認してください。</MessageBody>
+	</Message>
+	<Message key="ADFTW0004">
+		<MessageBody>フレックスを利用しているため、フレックスの勤務形態を適用してください。</MessageBody>
+	</Message>
+	<Message key="ADFTW0005">
+		<MessageBody>%1%が%2%の範囲外で設定されています。確認してください。</MessageBody>
+	</Message>
+	<Message key="ADFTW0006">
+		<MessageBody>勤怠設定とカレンダで登録した勤務形態は変形労働設定を合わせる必要があります。確認してください。</MessageBody>
+	</Message>
+	<Message key="ADFTW0007">
+		<MessageBody>勤務日を登録していないカレンダは設定できません。確認してください。</MessageBody>
+	</Message>
+	<Message key="ADFTW0008">
+		<MessageBody>変形労働設定が異なる履歴は登録できません。確認してください。</MessageBody>
+	</Message>
+	<Message key="ADFTW0009">
+		<MessageBody>変形労働設定が異なる勤務形態は同じカレンダに登録できません。確認してください。</MessageBody>
+	</Message>
+	<Message key="ADFTW0010">
+		<MessageBody>%1%は勤務形態のフレキシブルタイム内(%2%～%3%)に申請してください。</MessageBody>
+	</Message>
+	<Message key="ADFTW0011">
+		<MessageBody>%1%の勤怠は%2%の勤務がありません。%3%を申請した上で再度勤怠の申請を行ってください。</MessageBody>
+	</Message>
+
+</MosP>

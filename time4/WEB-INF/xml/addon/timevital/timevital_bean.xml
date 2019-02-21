@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MosP>
+<!--
+MosP - Mind Open Source Project    http://www.mosp.jp/
+Copyright (C) MIND Co., Ltd.       http://www.e-mind.co.jp/
+
+This program is free software: you can redistribute it and/or
+modify it under the terms of the GNU Affero General Public License
+as published by the Free Software Foundation, either version 3
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<MosP>
+<!--BeanHandler-->
+	<Model key="TimeVitalBeanHandler">
+		jp.mosp.addon.timevital.base.TimeVitalBeanHandler
+	</Model>
+	
+<!--Reference-->
+	<Model key="MeasureReference">
+		jp.mosp.addon.timevital.bean.impl.MeasureReferenceBean
+	</Model>
+	<Model key="AuthReference">
+		jp.mosp.addon.timevital.bean.impl.AuthReferenceBean
+	</Model>
+	
+<!--Regist-->
+	<Model key="MeasureRegist">
+		jp.mosp.addon.timevital.bean.impl.MeasureRegistBean
+	</Model>
+	<Model key="AuthRegist">
+		jp.mosp.addon.timevital.bean.impl.AuthRegistBean
+	</Model>
+<!--Search-->
+	<Model key="IndividualMeasureListSearch">
+		jp.mosp.addon.timevital.bean.impl.IndividualMeasureListSearchBean
+	</Model>
+	<Model key="SubordinateMeasureListSearch">
+		jp.mosp.addon.timevital.bean.impl.SubordinateMeasureListSearchBean
+	</Model>
+</MosP>

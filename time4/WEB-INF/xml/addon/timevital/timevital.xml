@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MosP>
+<!--
+MosP - Mind Open Source Project    http://www.mosp.jp/
+Copyright (C) MIND Co., Ltd.       http://www.e-mind.co.jp/
+
+This program is free software: you can redistribute it and/or
+modify it under the terms of the GNU Affero General Public License
+as published by the Free Software Foundation, either version 3
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<MosP>
+	<!-- クライアントID -->
+	<Application key="clientId">
+		sampleClient
+	</Application>
+	<!-- API用コマンド -->
+	<Controller key="api">
+		<ActionClass>jp.mosp.addon.api.action.ApiAction</ActionClass>
+		<AcceptMethod>GET,POST,DELETE,PUT</AcceptMethod>
+		<NeedSession>unnecessary</NeedSession>
+		<NeedProcSeq>ignore</NeedProcSeq>
+	</Controller>
+	<!-- APIBean -->
+	<Model key="api_personal_logins">
+		jp.mosp.addon.timevital.bean.impl.ApiPersonalLoginBean
+	</Model>
+		<Model key="api_personals">
+		jp.mosp.addon.timevital.bean.impl.ApiPersonalBean
+	</Model>
+	<Model key="api_personal_logouts">
+		jp.mosp.addon.timevital.bean.impl.ApiPersonalLogoutBean
+	</Model>
+	<Model key="api_html_personals">
+		jp.mosp.addon.timevital.bean.impl.ApiHtmlPersonalBean
+	</Model>
+</MosP>

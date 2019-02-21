@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE MosP>
+<!--
+MosP - Mind Open Source Project    http://www.mosp.jp/
+Copyright (C) MIND Co., Ltd.       http://www.e-mind.co.jp/
+
+This program is free software: you can redistribute it and/or
+modify it under the terms of the GNU Affero General Public License
+as published by the Free Software Foundation, either version 3
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<MosP>
+	<!-- メニュー -->
+	<Naming key="Flex">
+		フレックス
+	</Naming>
+	<Naming key="VariableWorking">
+		変形労働
+	</Naming>
+	<Naming key="CoreTime">
+		コアタイム
+	</Naming>
+	<Naming key="FlexibleTime">
+		フレキシブルタイム
+	</Naming>
+	<Naming key="TotalWorkingHours">
+		総労働時間
+	</Naming>
+	<Naming key="InSettlementPeriod">
+		清算期間における
+	</Naming>
+	<Naming key="SettlementPeriod">
+		清算期間
+	</Naming>
+	<Naming key="FirstHalf">
+		前半休
+	</Naming>
+	<Naming key="SecondHalf">
+		後半休
+	</Naming>
+	<Naming key="DeficientHours">
+		不足時間
+	</Naming>
+</MosP>

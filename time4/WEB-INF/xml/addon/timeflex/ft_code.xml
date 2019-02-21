@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE MosP>
+<!--
+MosP - Mind Open Source Project    http://www.mosp.jp/
+Copyright (C) MIND Co., Ltd.       http://www.e-mind.co.jp/
+
+This program is free software: you can redistribute it and/or
+modify it under the terms of the GNU Affero General Public License
+as published by the Free Software Foundation, either version 3
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<MosP>
+	<!-- 勤怠設定追加処理 -->
+	<Code key="TimeSettingAddons">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTimeSettingBean">
+			<ItemName>/jsp/addon/timeflex/ftTimeSettingCard.jsp</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤務形態設定追加処理 -->
+	<Code key="WorkTypeSettingAddons">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtWorkTypeBean">
+			<ItemName>/jsp/addon/timeflex/ftWorkTypeCard.jsp</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠詳細追加処理 -->
+	<Code key="AttedanceCardAddons">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtAttendanceCardBean">
+			<ItemName>/jsp/addon/timeflex/ftAttendanceCard.jsp</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 各種申請追加処理 -->
+	<Code key="CheckApplyAvailable">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtCheckVariableWorkingTypeBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtCheckVariableWorkingTypeBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 設定適用追加処理 -->
+	<Code key="CheckApplication">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtCheckApplicationBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtCheckApplicationBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤務形態パターン追加処理 -->
+	<Code key="WorkTypePatternAddons">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtWorkTypePatternCardBean">
+			<ItemName>/jsp/addon/timeflex/ftWorkTypePatternCard.jsp</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠一覧追加処理 -->
+	<Code key="AttedanceListAddons">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtAttendanceListAddonBean">
+			<ItemName>/jsp/addon/timeflex/ftAttendanceListAddon.jsp</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤務形態変更申請のプルダウン追加処理 -->
+	<Code key="ChangeWorkTypePulldown">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtChangeWorkTypePulldownBean">
+			<ItemName>/jsp/addon/timeflex/FtChangeWorkTypePulldownBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠設定追加項目一括更新処理 -->
+	<Code key="AdditionalTimeSettingUpdate">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTimeSettingUpdateBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtTimeSettingUpdateBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤務形態項目登録追加処理 -->
+	<Code key="WorkTypeItemRegistAddons">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtWorkTypeItemRegistAddonBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtWorkTypeItemRegistAddonBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 残業申請登録追加処理 -->
+	<Code key="OvertimeRequestRegistAddons">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtOvertimeRequestRegistAddonBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtOvertimeRequestRegistAddonBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤務形態変更申請登録追加処理 -->
+	<Code key="WorkTypeChangeRequestRegistAddons">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtWorkTypeChangeRequestRegistAddonBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtWorkTypeChangeRequestRegistAddonBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 時差出勤申請登録追加処理 -->
+	<Code key="DifferenceRequestRegistAddons">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtDifferenceRequestRegistAddonBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtDifferenceRequestRegistAddonBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠一覧の予定時間表示の追加処理 -->
+	<Code key="Add_AttendanceListReferenceBean_getAttendanceList">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtAttendanceListReferenceBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtAttendanceListReferenceBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠詳細の私用外出チェックの追加処理 -->
+	<Code key="Add_AttendanceCardAction_ChkPrivateGoOut">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtAttendanceCardBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtAttendanceCardBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- エクスポートテーブル参照クラスの追加項目処理 -->
+	<Code key="Add_ExportTableReferenceBean_Export">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtExportTableReferenceBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtExportTableReferenceBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- カレンダ管理登録クラスの追加項目処理 -->
+	<Code key="Add_ScheduleRegistBean_Validate">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtScheduleRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtScheduleRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠集計データ参照クラスの勤怠集計からレコードを取得する際の追加処理 -->
+	<Code key="Add_TotalTimeReferenceBean_FindForKey">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTotalTimeReferenceBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtTotalTimeReferenceBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠集計データ参照クラスの期間で勤怠集計を取得する際の追加処理 -->
+	<Code key="Add_TotalTimeReferenceBean_FindFiscalMap">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTotalTimeReferenceBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtTotalTimeReferenceBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠集計データ新規登録の追加処理 -->
+	<Code key="Add_TotalTimeRegistBean_Insert">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTotalTimeRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtTotalTimeRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠集計データ履歴更新の追加処理 -->
+	<Code key="Add_TotalTimeRegistBean_Update">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTotalTimeRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtTotalTimeRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠集計データ論理削除の追加処理 -->
+	<Code key="Add_TotalTimeRegistBean_Delete1">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTotalTimeRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtTotalTimeRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠集計データ論理削除の追加処理 -->
+	<Code key="Add_TotalTimeRegistBean_Delete2">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTotalTimeRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtTotalTimeRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 時間休申請チェックの追加処理 -->
+	<Code key="Add_AttendanceRegistBean_CheckHolidayRequestTime">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtAttendanceRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtAttendanceRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 申請時確認処理の追加処理 -->
+	<Code key="Add_AttendanceRegistBean_CheckAppli">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtAttendanceRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtAttendanceRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 時間限度チェックの追加処理 -->
+	<Code key="Add_HolidayRequestRegistBean_CheckTimeHolidayLimit">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtHolidayRequestRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtHolidayRequestRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 編集時の確認処理の追加処理 -->
+	<Code key="Add_HolidayRequestRegistBean_CheckTimeHoliday">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtHolidayRequestRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtHolidayRequestRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 休憩時刻調整処理の追加処理 -->
+	<Code key="Add_RestRegistBean_SetRestStartEndTime">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtRestRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtRestRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 始業終業時刻を元に外出開始時刻と外出終了時刻を設定する際の追加処理 -->
+	<Code key="Add_GoOutRegistBean_SetGoOutStartEnd">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtGoOutRegistBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtGoOutRegistBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠集計の追加処理 -->
+	<Code key="Add_TotalTimeCalcBean_Total">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTotalTimeCalcBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtTotalTimeCalcBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠集計の追加処理 -->
+	<Code key="Add_TotalTimeCalcBean_GetTotalTimeData">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTotalTimeCalcBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtTotalTimeCalcBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 勤怠集計エンティティを取得する際の追加処理 -->
+	<Code key="Add_TotalTimeEntityReferenceBean_GetTotalTimeEntity">
+	<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtTotalTimeEntityReferenceBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtTotalTimeEntityReferenceBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- 出勤簿出力の追加処理 -->
+	<Code key="Add_AttendanceListReferenceBean_SetHeaderFields">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtAttendanceListReferenceBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtAttendanceListReferenceBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- * プルダウン用 * -->
+	<!-- 変形労働制適用 -->
+	<Code key="FtVariableWorkingType">
+		<CodeItem key="0">
+			<ItemName>無し</ItemName>
+			<ViewIndex>1</ViewIndex>
+		</CodeItem>
+		<CodeItem key="1">
+			<ItemName>フレックス</ItemName>
+			<ViewIndex>2</ViewIndex>
+		</CodeItem>
+	</Code>
+	<!-- エクスポート -->
+	<Code key="export_tmd_total_time">
+		<CodeItem key="ft_request_total_contract_work_time">
+			<ItemName>清算期間総労働時間</ItemName>
+			<ViewIndex>1001</ViewIndex>
+		</CodeItem>
+		<CodeItem key="ft_deficient_contract_work_time">
+			<ItemName>清算期間不足時間</ItemName>
+			<ViewIndex>1002</ViewIndex>
+		</CodeItem>
+	</Code>
+	
+	<!-- 勤務形態アイテム用 -->
+	<Code key="additionalWorkTypeItem">
+		<CodeItem key="ft_variable_working_set">
+			<ItemName>VariableWorking</ItemName>
+			<ViewIndex>1001</ViewIndex>
+		</CodeItem>
+		<CodeItem key="ft_front_start_flex">
+			<ItemName>FrontStartFlex</ItemName>
+			<ViewIndex>1002</ViewIndex>
+		</CodeItem>
+		<CodeItem key="ft_back_start_flex">
+			<ItemName>BackStartFlex</ItemName>
+			<ViewIndex>1003</ViewIndex>
+		</CodeItem>
+		<CodeItem key="ft_flexibletime_start1">
+			<ItemName>FlexTimeStart1</ItemName>
+			<ViewIndex>1004</ViewIndex>
+		</CodeItem>
+		<CodeItem key="ft_flexibletime_end1">
+			<ItemName>FlexTimeEnd1</ItemName>
+			<ViewIndex>1005</ViewIndex>
+		</CodeItem>
+	</Code>
+
+	<!-- 勤務形態データインポート -->
+	<Code key="import_tmd_work_type">
+		<CodeItem key="ft_variable_working_set">
+			<ItemName>変形労働適用</ItemName>
+			<ViewIndex>1001</ViewIndex>
+		</CodeItem>
+		<CodeItem key="ft_front_start_flex">
+			<ItemName>フレックス午前休</ItemName>
+			<ViewIndex>1002</ViewIndex>
+		</CodeItem>
+		<CodeItem key="ft_back_start_flex">
+			<ItemName>フレックス午後休</ItemName>
+			<ViewIndex>1003</ViewIndex>
+		</CodeItem>
+		<CodeItem key="ft_flexibletime_start1">
+			<ItemName>フレキシブルタイム開始</ItemName>
+			<ViewIndex>1004</ViewIndex>
+		</CodeItem>
+		<CodeItem key="ft_flexibletime_end1">
+			<ItemName>フレキシブルタイム終了</ItemName>
+			<ViewIndex>1005</ViewIndex>
+		</CodeItem>
+	</Code>
+	
+	<!-- 勤務形態データインポート追加処理一覧 -->
+	<Code key="WorkTypeImportAddons">
+		<CodeItem key="jp.mosp.addon.timeflex.bean.impl.FtWorkTypeImportAddonBean">
+			<ItemName>addon/jp/mosp/addon/timeflex/bean/impl/FtWorkTypeImportAddonBean.java</ItemName>
+			<ViewIndex>100</ViewIndex>
+		</CodeItem>
+	</Code>
+</MosP>

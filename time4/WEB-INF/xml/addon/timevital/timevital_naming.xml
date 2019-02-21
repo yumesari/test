@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MosP>
+<!--
+MosP - Mind Open Source Project    http://www.mosp.jp/
+Copyright (C) MIND Co., Ltd.       http://www.e-mind.co.jp/
+
+This program is free software: you can redistribute it and/or
+modify it under the terms of the GNU Affero General Public License
+as published by the Free Software Foundation, either version 3
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<MosP>
+	<Naming key="jp.mosp.addon.timevital.vo.IndividualMeasureListVo">
+		個人測定結果一覧
+	</Naming>
+	<Naming key="jp.mosp.addon.timevital.vo.SubordinateMeasureListVo">
+		部下測定管理一覧
+	</Naming>
+	<Naming key="Auth">
+		認証
+	</Naming>
+	<Naming key="Client">
+		クライアント
+	</Naming>
+	<Naming key="menuTimeVital">
+		健康管理
+	</Naming>
+	<Naming key="Vital">
+		元気度
+	</Naming>
+	<Naming key="Minimum">
+		最小
+	</Naming>
+	<Naming key="Measure">
+		測定
+	</Naming>
+	<Naming key="Value">
+		値
+	</Naming>
+	<Naming key="NumOfTimes">
+		回目
+	</Naming>
+</MosP>

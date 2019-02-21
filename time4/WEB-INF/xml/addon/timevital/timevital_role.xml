@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MosP>
+<!--
+MosP - Mind Open Source Project    http://www.mosp.jp/
+Copyright (C) MIND Co., Ltd.       http://www.e-mind.co.jp/
+
+This program is free software: you can redistribute it and/or
+modify it under the terms of the GNU Affero General Public License
+as published by the Free Software Foundation, either version 3
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<MosP>
+	<Role key="90">
+		<Menu key="IndividualMeasureList">
+			<Index>9100</Index>
+		</Menu>
+		<Menu key="SubordinateMeasureList">
+			<Index>9200</Index>
+		</Menu>
+	</Role>
+	<Role key="50">
+		<Menu key="IndividualMeasureList">
+			<Index>9100</Index>
+		</Menu>
+		<Menu key="SubordinateMeasureList">
+			<Index>9200</Index>
+			<Range key="1">
+				<Position>RangeMyself</Position>
+				<Section>RangeMyself</Section>
+			</Range>
+		</Menu>
+	</Role>
+	<Role key="40">
+		<Menu key="IndividualMeasureList">
+			<Index>9100</Index>
+		</Menu>
+		<Menu key="SubordinateMeasureList">
+			<Index>9200</Index>
+			<Range key="1">
+				<Position>RangeMyself</Position>
+				<Section>RangeMyself</Section>
+			</Range>
+		</Menu>
+	</Role>
+	<Role key="30">
+		<Menu key="IndividualMeasureList">
+			<Index>9100</Index>
+		</Menu>
+		<Menu key="SubordinateMeasureList">
+			<Index>9200</Index>
+			<Range key="1">
+				<Position>RangeMyself</Position>
+				<Section>RangeMyself</Section>
+			</Range>
+		</Menu>
+	</Role>
+	<Role key="20">
+		<Menu key="IndividualMeasureList">
+			<Index>9100</Index>
+		</Menu>
+		<Menu key="SubordinateMeasureList">
+			<Index>9200</Index>
+			<Range key="1">
+				<Position>RangeMyself</Position>
+				<Section>RangeMyself</Section>
+			</Range>
+		</Menu>
+	</Role>
+	<Role key="10">
+		<Menu key="IndividualMeasureList">
+			<Index>9100</Index>
+		</Menu>
+	</Role>
+</MosP>
